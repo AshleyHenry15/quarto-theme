@@ -1,0 +1,71 @@
+---
+title: "Posit Documentation Theme"
+---
+
+This is a Quarto website. Reference the [Quarto docs](https://quarto.org) for more information.
+
+## Header two
+
+Deploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.
+
+
+## Code blocks
+
+```bash
+# Posit Workbench
+helm repo add rstudio https://helm.rstudio.com
+
+# Pull the latest versions of the Helm charts
+helm repo update
+```
+
+```r
+library(sparklyr)
+
+sc <- spark_connect(
+  cluster_id = "Enter here your cluster ID",
+  method = "databricks_connect"
+)
+```
+
+### Code tabs
+
+::: {.panel-tabset}
+## RHEL 9
+```bash
+$ curl -O https://download2.rstudio.org/server/rhel9/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+$ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+```
+
+## RHEL 8
+```bash
+$ curl -O https://download2.rstudio.org/server/rhel8/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+$ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+```
+
+## RHEL/CentOS 7 / Amazon Linux 2
+```bash
+$ curl -O https://download2.rstudio.org/server/centos7/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+$ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
+```
+
+## Ubuntu 22
+```bash
+$ sudo apt-get install gdebi-core
+$ curl -O https://download2.rstudio.org/server/jammy/amd64/rstudio-workbench-{{< var version >}}-amd64.deb
+$ sudo gdebi rstudio-workbench-{{< var version >}}-amd64.deb
+```
+
+## Ubuntu 20 / Debian 10/11/12
+```bash
+$ sudo apt-get install gdebi-core
+$ curl -O https://download2.rstudio.org/server/focal/amd64/rstudio-workbench-{{< var version >}}-amd64.deb
+$ sudo gdebi rstudio-workbench-{{< var version >}}-amd64.deb
+```
+
+## SUSE 15 SP5 / openSUSE 15.5
+```bash
+$ curl -O https://download2.rstudio.org/server/opensuse15/x86_64/rstudio-workbench-{{< var version >}}-x86_64.rpm
+$ sudo zypper install rstudio-workbench-{{< var version >}}-x86_64.rpm
+```
+:::
