@@ -31,32 +31,34 @@ sc <- spark_connect(
 ### Code tabs
 
 ::: {.panel-tabset}
-## RHEL 9
+## RHEL
+###### RHEL 9
 ```bash
 $ curl -O https://download2.rstudio.org/server/rhel9/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 $ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 ```
 
-## RHEL 8
+###### RHEL 8
 ```bash
 $ curl -O https://download2.rstudio.org/server/rhel8/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 $ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 ```
 
-## RHEL/CentOS 7 / Amazon Linux 2
+###### RHEL/CentOS 7 / Amazon Linux 2
 ```bash
 $ curl -O https://download2.rstudio.org/server/centos7/x86_64/rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 $ sudo yum install rstudio-workbench-rhel-{{< var version >}}-x86_64.rpm
 ```
 
-## Ubuntu 22
+## Ubuntu
+###### Ubuntu 22
 ```bash
 $ sudo apt-get install gdebi-core
 $ curl -O https://download2.rstudio.org/server/jammy/amd64/rstudio-workbench-{{< var version >}}-amd64.deb
 $ sudo gdebi rstudio-workbench-{{< var version >}}-amd64.deb
 ```
 
-## Ubuntu 20 / Debian 10/11/12
+###### Ubuntu 20 / Debian 10/11/12
 ```bash
 $ sudo apt-get install gdebi-core
 $ curl -O https://download2.rstudio.org/server/focal/amd64/rstudio-workbench-{{< var version >}}-amd64.deb
@@ -69,3 +71,9 @@ $ curl -O https://download2.rstudio.org/server/opensuse15/x86_64/rstudio-workben
 $ sudo zypper install rstudio-workbench-{{< var version >}}-x86_64.rpm
 ```
 :::
+
+## Callouts
+
+## Quotes
+
+>Something really interesting here.

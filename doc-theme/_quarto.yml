@@ -2,12 +2,33 @@ project:
   type: website
 
 website:
-  title: "Doc-theme"
+  title: "Posit Connect Documentation"
   favicon: "images/favicon.svg"
   navbar:
     pinned: true
+    logo: "images/posit-icon-fullcolor.svg"
+    logo-alt: "Posit documentation"
+    right:
+      - text: "Versions"
+        url: 'https://docs.posit.co/previous-versions/rstudio/'
+      - text: "Guides"
+        menu:
+          - text: "Workbench Install Guide"
+            url: 'https://docs.posit.co/ide/server-pro/getting_started/installation/'
+          - text: "Workbench User Guide"
+            url: 'https://docs.posit.co/ide/server-pro/user/'
+          - text: "RStudio Open Source User Guide"
+            url: 'https://docs.posit.co/ide/user/'
+      - text: "Release Notes"
+        url: "https://docs.posit.co/ide/news/"
+      - icon: book
+        url: https://docs.posit.co/
+        aria-label: Posit Documentation website
+      - icon: question-circle
+        url: https://support.rstudio.com/
+        aria-label: Posit Professional Support
   sidebar:
-    style: "docked"
+    style: "floating"
     collapse-level: 1
     search: true
     pinned: false
@@ -19,8 +40,9 @@ website:
           - files/file-1.qmd
           - files/file-2.qmd
   page-footer:
-    left: |
-      © 2024 Posit Software, PBC formerly RStudio, PBC 
+    left: 
+      - text: <img src='/images/posit-logo-black-TM.png' id='footer-logo'> © 2024 Posit Software, PBC formerly RStudio, PBC 
+        url: "https://posit.co"
     center: |
       Posit Product 12345 
 
@@ -31,8 +53,7 @@ website:
         href: https://support.posit.co/hc/en-us
       - icon: lightbulb-fill
         href: https://solutions.posit.co
-      - text: "<img src='/images/posit-logo-black-TM.png' id='footer-logo'>"
-        url: "https://posit.co"
+
 format:
   html:
     theme: 

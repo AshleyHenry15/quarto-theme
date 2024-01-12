@@ -47,7 +47,7 @@ $navbar-fg: #888888;
 $navbar-hl: #000000;
 $navbar-brand: $body-color;
 $navbar-brand-hl: $navbar-brand;
-
+//$navbar-brand-font-size: 14px !default;
 
 
 // CSS overrides
@@ -66,6 +66,15 @@ h2, .h2 {
 .navbar {
   box-shadow: 0 0 0.2rem #0000001a, 0 0.1rem 0.4rem #0003;
   transition: transform .25s cubic-bezier(.1,.7,.1,1),box-shadow .25s;
+}
+
+.navbar-title {
+    font-family: Source Code Pro,monospace;
+}
+
+.nav-link {
+    font-family: Source Code Pro,monospace;
+    text-transform: uppercase;
 }
 
 /* Posit logo - navbar */

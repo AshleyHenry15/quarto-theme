@@ -11,8 +11,9 @@
     "href": "index.html",
     "title": "Posit Documentation Theme",
     "section": "",
-    "text": "This is a Quarto website. Reference the Quarto docs for more information",
+    "text": "This is a Quarto website. Reference the Quarto docs for more information.",
     "crumbs": [
+      "Versions",
       "Introduction"
     ]
   },
@@ -101,8 +102,9 @@
     "href": "index.html#code-blocks",
     "title": "Posit Documentation Theme",
     "section": "Code blocks",
-    "text": "Code blocks\n# Posit Workbench\nhelm repo add rstudio https://helm.rstudio.com\n\n# Pull the latest versions of the Helm charts\nhelm repo update\nlibrary(sparklyr)\n\nsc &lt;- spark_connect(\n  cluster_id = \"Enter here your cluster ID\",\n  method = \"databricks_connect\"\n)\n\nCode tabs\n\nRHEL 9RHEL 8RHEL/CentOS 7 / Amazon Linux 2Ubuntu 22Ubuntu 20 / Debian 10/11/12SUSE 15 SP5 / openSUSE 15.5\n\n\n$ curl -O https://download2.rstudio.org/server/rhel9/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\n$ curl -O https://download2.rstudio.org/server/rhel8/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\n$ curl -O https://download2.rstudio.org/server/centos7/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\n$ sudo apt-get install gdebi-core\n$ curl -O https://download2.rstudio.org/server/jammy/amd64/rstudio-workbench-?var:version-amd64.deb\n$ sudo gdebi rstudio-workbench-?var:version-amd64.deb\n\n\n$ sudo apt-get install gdebi-core\n$ curl -O https://download2.rstudio.org/server/focal/amd64/rstudio-workbench-?var:version-amd64.deb\n$ sudo gdebi rstudio-workbench-?var:version-amd64.deb\n\n\n$ curl -O https://download2.rstudio.org/server/opensuse15/x86_64/rstudio-workbench-?var:version-x86_64.rpm\n$ sudo zypper install rstudio-workbench-?var:version-x86_64.rpm",
+    "text": "Code blocks\n# Posit Workbench\nhelm repo add rstudio https://helm.rstudio.com\n\n# Pull the latest versions of the Helm charts\nhelm repo update\nlibrary(sparklyr)\n\nsc &lt;- spark_connect(\n  cluster_id = \"Enter here your cluster ID\",\n  method = \"databricks_connect\"\n)\n\nCode tabs\n\nRHELUbuntuSUSE 15 SP5 / openSUSE 15.5\n\n\n\nRHEL 9\n$ curl -O https://download2.rstudio.org/server/rhel9/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\nRHEL 8\n$ curl -O https://download2.rstudio.org/server/rhel8/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\nRHEL/CentOS 7 / Amazon Linux 2\n$ curl -O https://download2.rstudio.org/server/centos7/x86_64/rstudio-workbench-rhel-?var:version-x86_64.rpm\n$ sudo yum install rstudio-workbench-rhel-?var:version-x86_64.rpm\n\n\n\n\nUbuntu 22\n$ sudo apt-get install gdebi-core\n$ curl -O https://download2.rstudio.org/server/jammy/amd64/rstudio-workbench-?var:version-amd64.deb\n$ sudo gdebi rstudio-workbench-?var:version-amd64.deb\n\n\nUbuntu 20 / Debian 10/11/12\n$ sudo apt-get install gdebi-core\n$ curl -O https://download2.rstudio.org/server/focal/amd64/rstudio-workbench-?var:version-amd64.deb\n$ sudo gdebi rstudio-workbench-?var:version-amd64.deb\n\n\n\n$ curl -O https://download2.rstudio.org/server/opensuse15/x86_64/rstudio-workbench-?var:version-x86_64.rpm\n$ sudo zypper install rstudio-workbench-?var:version-x86_64.rpm",
     "crumbs": [
+      "Versions",
       "Introduction"
     ]
   },
@@ -113,6 +115,39 @@
     "section": "Header two",
     "text": "Header two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.",
     "crumbs": [
+      "Versions",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#two",
+    "href": "index.html#two",
+    "title": "Posit Documentation Theme",
+    "section": "two",
+    "text": "two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\n\nthree\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\n\nfour\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\n\nfive\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\n\nsix\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#callouts",
+    "href": "index.html#callouts",
+    "title": "Posit Documentation Theme",
+    "section": "Callouts",
+    "text": "Callouts",
+    "crumbs": [
+      "Versions",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#quotes",
+    "href": "index.html#quotes",
+    "title": "Posit Documentation Theme",
+    "section": "Quotes",
+    "text": "Quotes\n\nSomething really interesting here.",
+    "crumbs": [
+      "Versions",
       "Introduction"
     ]
   }
