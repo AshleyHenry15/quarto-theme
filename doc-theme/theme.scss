@@ -23,11 +23,11 @@ $posit-burgundy-2:#542938;
 // Typography
 // Font, line-height, and color for body text, headings, and more.
 
-//scss-fon-start font-variables
+//scss-font-start font-variables
 $font-family-sans-serif: "Open Sans",   system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 // scss-docs-end font-variables
 
-$body-color: #404041; /* posit gray */
+$body-color: $posit-gray;
 
 // scss-docs-start font-sizes
 $h1-font-size:44px;
@@ -40,7 +40,6 @@ $h2-font-size:28px;
 //$headings-font-weight: 300 !default;
 // scss-docs-end headings-variables
 
-
 //  Customize the navbar
 $navbar-bg: #ffffff;
 $navbar-fg: #888888;
@@ -49,19 +48,11 @@ $navbar-brand: $body-color;
 $navbar-brand-hl: $navbar-brand;
 //$navbar-brand-font-size: 14px !default;
 
+// scss-docs-start list-group-variables
+$list-group-color: $primary !default;
+// scss-docs-end list-group-variables
 
 // CSS overrides
-
-h1, .h1, h2, .h2 {
-    color: inherit;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 300 !important;
-}
-
-h2, .h2 { 
-  border-bottom: none !important;
-}
 
 .navbar {
   box-shadow: 0 0 0.2rem #0000001a, 0 0.1rem 0.4rem #0003;
@@ -77,8 +68,30 @@ h2, .h2 {
     text-transform: uppercase;
 }
 
+.nav-footer {
+    font-family: Source Code Pro,monospace;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 /* Posit logo - navbar */
 #footer-logo {
     width: 70px;
     min-width: 70px;
+}
+
+h1, .h1, h2, .h2 {
+    color: inherit;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300 !important;
+}
+
+h2, .h2 { 
+  border-bottom: none !important;
+}
+
+/* List disc colors */
+li::marker {
+    color: $primary;
 }

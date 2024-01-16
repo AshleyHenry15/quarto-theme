@@ -77,3 +77,15 @@ $ sudo zypper install rstudio-workbench-{{< var version >}}-x86_64.rpm
 ## Quotes
 
 >Something really interesting here.
+
+## Lists
+
+- Unordered list
+  - Unordered list
+    - Unordered list
+- Unordered list
+- Unordered list
+
+1. first
+2. second
+3. third
