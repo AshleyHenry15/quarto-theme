@@ -8,6 +8,14 @@ This is a Quarto website. Reference the [Quarto docs](https://quarto.org) for mo
 
 Deploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.
 
+Other examples:
+
+- The [`Server.DataDir`](../appendix/configuration/index.md#Server.DataDir) directory
+    containing all variable data used by Posit Connect.
+- The [`SQLite.Dir`](../appendix/configuration/index.md#SQLite.Dir) directory, which
+    can optionally be placed outside the data directory.
+- Configuration directories, including `/etc/rstudio-connect`.
+- The [`Server.TempDir`](../appendix/configuration/index.md#Server.TempDir) directory contains a `connect-workspaces` sub-directory with per-process temporary directories.
 
 ## Code blocks
 
@@ -73,6 +81,45 @@ $ sudo zypper install rstudio-workbench-{{< var version >}}-x86_64.rpm
 :::
 
 ## Callouts
+
+::: {.callout-note}
+Something here
+:::
+
+::: {.callout-tip}
+Something here
+:::
+
+::: {.callout-warning}
+Something here
+:::
+
+
+::: {.callout-important}
+Something here
+:::
+
+
+::: {.callout-note collapse="true"}
+## Expand me
+Something here
+:::
+
+::: {.callout-tip collapse="true"}
+## Expand me
+Something here
+:::
+
+::: {.callout-warning collapse="true"}
+## Expand me
+Something here
+:::
+
+::: {.callout-important collapse="true"}
+## Expand me
+Something here
+:::
+
 
 ## Quotes
 

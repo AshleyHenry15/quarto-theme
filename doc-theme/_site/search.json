@@ -27,7 +27,7 @@
     "href": "index.html#header-two",
     "title": "Posit Documentation Theme",
     "section": "Header two",
-    "text": "Header two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.",
+    "text": "Header two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\nOther examples:\n\nThe Server.DataDir directory containing all variable data used by Posit Connect.\nThe SQLite.Dir directory, which can optionally be placed outside the data directory.\nConfiguration directories, including /etc/rstudio-connect.\nThe Server.TempDir directory contains a connect-workspaces sub-directory with per-process temporary directories.",
     "crumbs": [
       "Versions",
       "Introduction"
@@ -49,7 +49,7 @@
     "href": "index.html#callouts",
     "title": "Posit Documentation Theme",
     "section": "Callouts",
-    "text": "Callouts",
+    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nTip\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nWarning\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here",
     "crumbs": [
       "Versions",
       "Introduction"
