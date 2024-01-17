@@ -59,7 +59,7 @@ $list-group-color: $primary !default;
 }
 
 .navbar-title {
-    font-family: Source Code Pro,monospace;
+    font-family: $font-family-sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
@@ -80,9 +80,6 @@ $list-group-color: $primary !default;
     align-items: center !important;
 }
 
-.nav-footer center {
-    min-height: none;
-}
 
 /* Mini TOC */
 .sidebar nav[role=doc-toc]>ul li a {
@@ -103,6 +100,10 @@ $list-group-color: $primary !default;
 #footer-logo {
     width: 70px;
     min-width: 70px;
+}
+
+.nav-footer .nav-footer-center {
+    min-height: min-content;
 }
 
 /* List disc colors */

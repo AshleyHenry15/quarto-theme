@@ -27,6 +27,10 @@ helm repo add rstudio https://helm.rstudio.com
 helm repo update
 ```
 
+```{.bash filename="Terminal"}
+cat i-am-not-a-cat.txt
+```
+
 ```r
 library(sparklyr)
 
