@@ -1,1 +1,1 @@
-Sitemap: https://fd279e77-1ef0-4758-b3de-556936e1fe0d.netlify.app/sitemap.xml
+Sitemap: https://ashley.quarto.pub/posit-product-documentation/sitemap.xml
