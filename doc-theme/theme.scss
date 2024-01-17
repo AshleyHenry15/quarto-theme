@@ -37,7 +37,7 @@ $h2-font-size:28px;
 
 // Headings
 // scss-docs-start headings-variables
-//$headings-font-weight: 300 !default;
+$headings-font-weight: 300 !important;
 // scss-docs-end headings-variables
 
 //  Customize the navbar
@@ -66,6 +66,7 @@ $list-group-color: $primary !default;
 .nav-link {
     font-family: Source Code Pro,monospace;
     text-transform: uppercase;
+    letter-spacing: .03em;
 }
 
 .nav-footer {
@@ -74,12 +75,28 @@ $list-group-color: $primary !default;
     font-size: 14px;
 }
 
+/* Mini TOC */
+.sidebar nav[role=doc-toc]>ul li a {
+    text-transform: none !important;
+    font-family: $font-family-sans-serif;
+    font-size: 16px;
+    font-weight: 300 !important;
+    letter-spacing: .05em !important;
+}
+
+/* Left nav - letter spacing */
+.sidebar-navigation li a {
+    letter-spacing: .03em;
+    font-size: 16px;
+}
+
 /* Posit logo - navbar */
 #footer-logo {
     width: 70px;
     min-width: 70px;
 }
 
+/* headings
 h1, .h1, h2, .h2 {
     color: inherit;
     margin-top: 2rem;
@@ -90,6 +107,7 @@ h1, .h1, h2, .h2 {
 h2, .h2 { 
   border-bottom: none !important;
 }
+
 
 /* List disc colors */
 li::marker {
