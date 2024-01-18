@@ -41,7 +41,7 @@ website:
           - files/file-2.qmd
   page-footer:
     left: 
-      - text: <img src='/images/posit-logo-black-TM.png' id='footer-logo'> © 2024 Posit Software, PBC formerly RStudio, PBC 
+      - text: <img src='/images/posit-logo-black-TM.svg' id='footer-logo'> © 2024 Posit Software, PBC formerly RStudio, PBC 
         url: "https://posit.co"
     center: |
       Posit Product 12345 

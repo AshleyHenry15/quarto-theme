@@ -27,7 +27,7 @@
     "href": "index.html#header-two",
     "title": "Posit Documentation Theme",
     "section": "Header two",
-    "text": "Header two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.\nOther examples:\n\nThe Server.DataDir directory containing all variable data used by Posit Connect.\nThe SQLite.Dir directory, which can optionally be placed outside the data directory.\nConfiguration directories, including /etc/rstudio-connect.\nThe Server.TempDir directory contains a connect-workspaces sub-directory with per-process temporary directories.",
+    "text": "Header two\nDeploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT1 happy.\nOther examples:\n\nThe Server.DataDir directory containing all variable data used by Posit Connect.\nThe SQLite.Dir directory, which can optionally be placed outside the data directory.\nConfiguration directories, including /etc/rstudio-connect.\nThe Server.TempDir directory contains a connect-workspaces sub-directory with per-process temporary directories.",
     "crumbs": [
       "Versions",
       "Introduction"
@@ -45,33 +45,22 @@
     ]
   },
   {
-    "objectID": "index.html#callouts",
-    "href": "index.html#callouts",
+    "objectID": "index.html#other-elements",
+    "href": "index.html#other-elements",
     "title": "Posit Documentation Theme",
-    "section": "Callouts",
-    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nTip\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nWarning\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here",
+    "section": "Other elements",
+    "text": "Other elements\n\nCallouts\n\n\n\n\n\n\nNote\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nTip\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nWarning\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSomething here\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\n\n\n\n\nExpand me\n\n\n\n\n\nSomething here\n\n\n\n\n\nQuotes\n\nSomething really interesting here.\n\n\n\nLists\n\nUnordered list\n\nUnordered list\n\nUnordered list\n\n\nUnordered list\nUnordered list\n\n\nfirst\nsecond\nthird\n\n\n\nImages\nBelow, is an image.\n\n\n\nTesting out the alt text styles.",
     "crumbs": [
       "Versions",
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#quotes",
-    "href": "index.html#quotes",
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
     "title": "Posit Documentation Theme",
-    "section": "Quotes",
-    "text": "Quotes\n\nSomething really interesting here.",
-    "crumbs": [
-      "Versions",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#lists",
-    "href": "index.html#lists",
-    "title": "Posit Documentation Theme",
-    "section": "Lists",
-    "text": "Lists\n\nUnordered list\n\nUnordered list\n\nUnordered list\n\n\nUnordered list\nUnordered list\n\n\nfirst\nsecond\nthird",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nInformation Technology↩︎",
     "crumbs": [
       "Versions",
       "Introduction"

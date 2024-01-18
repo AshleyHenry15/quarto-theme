@@ -236,9 +236,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#code-tabs" id="toc-code-tabs" class="nav-link" data-scroll-target="#code-tabs">Code tabs</a></li>
   </ul></li>
+  <li><a href="#other-elements" id="toc-other-elements" class="nav-link" data-scroll-target="#other-elements">Other elements</a>
+  <ul class="collapse">
   <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts">Callouts</a></li>
   <li><a href="#quotes" id="toc-quotes" class="nav-link" data-scroll-target="#quotes">Quotes</a></li>
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -267,7 +271,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>This is a Quarto website. Reference the <a href="https://quarto.org">Quarto docs</a> for more information.</p>
 <section id="header-two" class="level2">
 <h2 class="anchored" data-anchor-id="header-two">Header two</h2>
-<p>Deploy all the work you create in R &amp; Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.</p>
+<p>Deploy all the work you create in R &amp; Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> happy.</p>
 <p>Other examples:</p>
 <ul>
 <li>The <a href="../appendix/configuration/index.md#Server.DataDir"><code>Server.DataDir</code></a> directory containing all variable data used by Posit Connect.</li>
@@ -339,8 +343,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="callouts" class="level2">
-<h2 class="anchored" data-anchor-id="callouts">Callouts</h2>
+<section id="other-elements" class="level2">
+<h2 class="anchored" data-anchor-id="other-elements">Other elements</h2>
+<section id="callouts" class="level3">
+<h3 class="anchored" data-anchor-id="callouts">Callouts</h3>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -458,14 +464,14 @@ Expand me
 </div>
 </div>
 </section>
-<section id="quotes" class="level2">
-<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<section id="quotes" class="level3">
+<h3 class="anchored" data-anchor-id="quotes">Quotes</h3>
 <blockquote class="blockquote">
 <p>Something really interesting here.</p>
 </blockquote>
 </section>
-<section id="lists" class="level2">
-<h2 class="anchored" data-anchor-id="lists">Lists</h2>
+<section id="lists" class="level3">
+<h3 class="anchored" data-anchor-id="lists">Lists</h3>
 <ul>
 <li>Unordered list
 <ul>
@@ -482,11 +488,28 @@ Expand me
 <li>second</li>
 <li>third</li>
 </ol>
+</section>
+<section id="images" class="level3">
+<h3 class="anchored" data-anchor-id="images">Images</h3>
+<p>Below, is an image.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/posit-logo-fullcolor-TM.svg" class="img-fluid figure-img"></p>
+<figcaption>Testing out the alt text styles.</figcaption>
+</figure>
+</div>
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Information Technology<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -896,7 +919,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://posit.co">
-<p><img src="./images/posit-logo-black-TM.png" id="footer-logo"> © 2024 Posit Software, PBC formerly RStudio, PBC</p>
+<p><img src="./images/posit-logo-black-TM.svg" id="footer-logo"> © 2024 Posit Software, PBC formerly RStudio, PBC</p>
 </a>
   </li>  
 </ul>

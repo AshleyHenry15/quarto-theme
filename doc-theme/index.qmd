@@ -6,7 +6,9 @@ This is a Quarto website. Reference the [Quarto docs](https://quarto.org) for mo
 
 ## Header two
 
-Deploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT happy.
+Deploy all the work you create in R & Python with Posit Connect, including Shiny, Streamlit, Bokeh, and Dash applications. Quarto documents. Jupyter Notebooks. Models. Reports. Dashboards. Even APIs. With customizable access controls and authentication options that make IT[^1] happy.
+
+[^1]: Information Technology
 
 Other examples:
 
@@ -84,7 +86,9 @@ $ sudo zypper install rstudio-workbench-{{< var version >}}-x86_64.rpm
 ```
 :::
 
-## Callouts
+## Other elements
+
+### Callouts
 
 ::: {.callout-note}
 Something here
@@ -125,11 +129,11 @@ Something here
 :::
 
 
-## Quotes
+### Quotes
 
 >Something really interesting here.
 
-## Lists
+### Lists
 
 - Unordered list
   - Unordered list
@@ -140,3 +144,10 @@ Something here
 1. first
 2. second
 3. third
+
+
+### Images
+
+Below, is an image.
+
+![Testing out the alt text styles.](/images/posit-logo-fullcolor-TM.svg)
