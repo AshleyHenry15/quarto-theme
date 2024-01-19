@@ -4,6 +4,7 @@ project:
 website:
   title: "Posit Product Documentation"
   favicon: "images/favicon.svg"
+  bread-crumbs: true
   navbar:
     pinned: true
     logo: "images/posit-icon-fullcolor.svg"
@@ -33,12 +34,14 @@ website:
     search: true
     pinned: false
     contents:
-      - text: "Introduction"
-        href: index.qmd
-      - section: "Getting Started"
+      - section: "Stuff"
         contents:
-          - files/file-1.qmd
-          - files/file-2.qmd
+          - text: "Introduction"
+            href: index.qmd
+          - section: "Getting Started"
+            contents:
+              - files/file-1.qmd
+              - files/file-2.qmd
   page-footer:
     left: 
       - text: <img src='/images/posit-logo-black-TM.svg' id='footer-logo'> © 2024 Posit Software, PBC formerly RStudio, PBC 
